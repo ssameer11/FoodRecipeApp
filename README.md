@@ -1,3 +1,5 @@
+This is the frontend for a Recipe storing web app using Angular.
+
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
