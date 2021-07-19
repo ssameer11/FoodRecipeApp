@@ -1,0 +1,21 @@
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched{
+    border: 1px solid rgb(199, 97, 97);
+}
+
+.image-preview {
+    width: 500px;
+    height: 500px;
+}
+
+.instructions {
+    margin: auto;
+}
+
+.instruction-input {
+    margin-right: 2rem;
+}
+
+.save-button {
+    margin-right: 2rem;
+}

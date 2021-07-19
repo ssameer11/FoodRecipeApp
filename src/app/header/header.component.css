@@ -1,0 +1,22 @@
+
+.animate {
+    animation: wiggle 400ms 2s 8 ease-out backwards;
+}
+
+@keyframes wiggle{
+    /* from {
+      transform: rotateZ(-10deg);
+    } 
+    to {
+      transform: rotateZ(10deg);
+    } */
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(-10deg);
+    }
+    100% {
+        transform: rotateZ(10deg);
+    }
+}

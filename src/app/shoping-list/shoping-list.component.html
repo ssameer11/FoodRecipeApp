@@ -1,0 +1,17 @@
+ <div class="container">
+ <!-- <div class="row"> -->
+        <div class="col-xs-10">
+            <app-shoping-edit></app-shoping-edit>
+            <hr>
+            <ul class="list-group">
+                <a class="list-group-item"
+                 style="cursor: pointer; text-decoration: none;"
+                 *ngFor="let ing of (ingredients | async).ingredients; let i = index"
+                 (click)="onEditIngredient(i)"
+                 >
+               {{ing.name}} ({{ ing.amount}})
+            </a>
+            </ul>
+        </div>
+    <!-- </div> -->
+</div>
